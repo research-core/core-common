@@ -14,7 +14,6 @@ class Country(models.Model):
         ordering = ['country_name',]
         verbose_name = "Country"
         verbose_name_plural = "Countries"
-        app_label = 'common'
 
     def __str__(self):
         return self.country_name

@@ -3,14 +3,14 @@ from django.contrib.auth.models import Permission
 from django.contrib.contenttypes.models import ContentType
 from django.core.management.base import BaseCommand
 
-from common.models import Permissions as RankedPermissions
-from research.models import Group as ResearchGroup
-from research.models import GroupType as ResearchGroupType
+from permissions.models import Permission as RankedPermissions
+from researh.models import Group as ResearchGroup
+from people.models import GroupType as ResearchGroupType
 
 from humanresources.models import Contract
 from humanresources.models import ContractProposal
-from humanresources.models import Person
-from supplier.models import Order
+from people.models import Person
+from orders.models import Order
 
 
 PROFILE_GROUP_NAME_TEMPLATE = 'PROFILE: Group {}: {}'

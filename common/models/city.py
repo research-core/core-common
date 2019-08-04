@@ -14,7 +14,6 @@ class City(models.Model):
         ordering = ['city_name',]
         verbose_name = "City"
         verbose_name_plural = "Cities"
-        app_label = 'common'
 
     def __str__(self):
         return self.city_name

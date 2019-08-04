@@ -1,0 +1,4 @@
+
+*.pyc
+
+core_common\.egg-info/

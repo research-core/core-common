@@ -15,7 +15,6 @@ class Currency(models.Model):
         ordering = ['currency_name',]
         verbose_name = "Currency"
         verbose_name_plural = "Currencies"
-        app_label = 'common'
 
     def __str__(self):
         return self.currency_name
