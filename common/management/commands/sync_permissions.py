@@ -4,7 +4,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.core.management.base import BaseCommand
 
 from permissions.models import Permission as RankedPermissions
-from researh.models import Group as ResearchGroup
+from people.models import Group as ResearchGroup
 from people.models import GroupType as ResearchGroupType
 
 from humanresources.models import Contract

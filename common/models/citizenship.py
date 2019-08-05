@@ -6,14 +6,12 @@ class Citizenship(models.Model):
     Represents a Person's Citizenship in the system
     Example: American, British
     """
-    
-    citizenship_id = models.AutoField(primary_key=True)         #: ID
-    citizenship_name = models.CharField('Name', max_length=70)  #: Name
+    name = models.CharField('Name', max_length=70)
 
     class Meta:
-        ordering = ['citizenship_name',]
+        ordering = ['name',]
         verbose_name = "Citizenship"
         verbose_name_plural = "Citizenships"
 
     def __str__(self):
-        return self.citizenship_name
+        return self.name

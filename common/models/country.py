@@ -6,14 +6,13 @@ class Country(models.Model):
     Represents a Person's country in the system
     Example: Israel, Brazil
     """
-    country_id = models.AutoField(primary_key=True)         #: ID
-    country_name = models.CharField('Name', max_length=70)  #: Name
-    country_code = models.CharField('ISO Code', max_length=10, blank=True, null=True)  #: ISO Code
+    name = models.CharField('Name', max_length=70)  #: Name
+    code = models.CharField('ISO Code', max_length=10, blank=True, null=True)  #: ISO Code
 
     class Meta:
-        ordering = ['country_name',]
+        ordering = ['name',]
         verbose_name = "Country"
         verbose_name_plural = "Countries"
 
     def __str__(self):
-        return self.country_name
+        return self.name
