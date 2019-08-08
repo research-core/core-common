@@ -17,6 +17,6 @@ class NationalityAdminApp(ModelAdminWidget):
     ORQUESTRA_MENU_ORDER = 0
     ORQUESTRA_MENU_ICON  = 'flag'
     ########################################################
-    
-    
+
+    AUTHORIZED_GROUPS = ['superuser']
     

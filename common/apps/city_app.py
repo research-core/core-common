@@ -14,6 +14,8 @@ class CityAdminApp(ModelAdminWidget):
     FIELDSETS = ['name', 'country']
     LIST_DISPLAY = ['name', 'country']
 
+    AUTHORIZED_GROUPS = ['superuser']
+
     ########################################################
     #### ORQUESTRA CONFIGURATION ###########################
     ########################################################

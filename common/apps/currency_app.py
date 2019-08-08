@@ -13,6 +13,8 @@ class CurrencyAdminApp(ModelAdminWidget):
     FIELDSETS = ['name', 'symbol']
     LIST_DISPLAY = ['name', 'symbol']
 
+    AUTHORIZED_GROUPS = ['superuser']
+
     ########################################################
     #### ORQUESTRA CONFIGURATION ###########################
     ########################################################

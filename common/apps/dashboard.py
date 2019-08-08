@@ -11,3 +11,5 @@ class CommonDashboard(BaseWidget):
     ORQUESTRA_MENU_ICON = 'red database'
     ORQUESTRA_MENU_ORDER = 10000
     LAYOUT_POSITION = conf.ORQUESTRA_HOME
+
+    AUTHORIZED_GROUPS = ['superuser']

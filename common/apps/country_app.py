@@ -13,6 +13,8 @@ class CountryAdminApp(ModelAdminWidget):
     FIELDSETS = ['name', 'code']
     LIST_DISPLAY = ['name', 'code']
 
+    AUTHORIZED_GROUPS = ['superuser']
+
     ########################################################
     #### ORQUESTRA CONFIGURATION ###########################
     ########################################################

@@ -13,6 +13,8 @@ class CitizenshipAdminApp(ModelAdminWidget):
     FIELDSETS = ['name']
     LIST_DISPLAY = ['name']
 
+    AUTHORIZED_GROUPS = ['superuser']
+
     ########################################################
     #### ORQUESTRA CONFIGURATION ###########################
     ########################################################
