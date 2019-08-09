@@ -1,29 +1,9 @@
-# README #
+# CORE COMMON #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+It is the most basic module of the Research CORE ERM and implements the models required by the CORE platform.
 
-### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+# Research CORE  - Enterprise Resources Management
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+CORE is a ERM platform created within a research environment, and aims to automatize some of the internal management processes related
+with Human Resources, Orders
