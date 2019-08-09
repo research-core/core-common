@@ -1,9 +1,27 @@
-# CORE COMMON #
+# CORE COMMON#
 
-It is the most basic module of the Research CORE ERM and implements the models required by the CORE platform.
+It is a module of the Research CORE ERM and implements the most basic models 
+required by the CORE platform:
 
+- Citizenship
+- City
+- Country
+- Currency
+- Institution
+- Nationality
 
-# Research CORE  - Enterprise Resources Management
+## Installation
 
-CORE is a ERM platform created within a research environment, and aims to automatize some of the internal management processes related
-with Human Resources, Orders
+```shell script
+pip install core-common
+```
+
+# *Enterprise Resources Management* - Research CORE
+
+CORE is an ERM platform developed in within a research environment and aims to automatize 
+internal management processes, like human resources, orders, budgets, suppliers, funds, equipment \rooms accesses and maintenance and publications.
+
+The project is distributed as an open-source project to facilitate the adaptation of the 
+ERM to each institution's needs.
+
+![core printscreen](https://github.com/research-core/core-server/raw/master/docs/static/core.png "Core publications printscreen")
