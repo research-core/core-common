@@ -1,6 +1,6 @@
-# CORE COMMON#
+# CORE COMMON
 
-It is a module of the Research CORE ERM and implements the most basic models 
+It is a module of the Research CORE ERM which implements the most basic models 
 required by the CORE platform:
 
 - Citizenship
