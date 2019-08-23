@@ -30,5 +30,6 @@ setup(
         'pyforms-web',
         'notifications-central',
         'django>=2.2'
-    ]
+    ],
+    package_data={ 'common': ['fixtures/initial_data.yaml'] },
 )
