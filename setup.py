@@ -26,5 +26,9 @@ setup(
     long_description_content_type='text/markdown',
     packages=find_packages(),
     license=license,
-    install_requires=['pyforms-web', 'notifications-central']
+    install_requires=[
+        'pyforms-web',
+        'notifications-central',
+        'django>=2.2'
+    ]
 )
